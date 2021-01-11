@@ -1,0 +1,72 @@
+/*--- mobile ---*/
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+  div {
+    display: block;
+    width: 100%;
+  }
+  /*div#medium,#large {
+    display:none;
+  }*/
+}
+/*--- tablet ---*/
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: green;
+  }
+  /*div#small,#large {
+    display:none;
+  }*/
+  #large{
+    background-color: #2f52fd;
+    width: 40%;
+    float: left;
+  }
+  #medium {
+    background-color: #2ffd5c;
+    max-width: 40%;
+    float: left;
+  }
+  #small {
+    background-color: #fa5252;
+    max-width: 90%;
+    float: left;
+  }
+}
+/*--- desktop ---*/
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  /*div#small,#medium {
+    display:none;
+  }*/
+  div {
+    display: inline-block;
+  }
+  #large{
+    max-width: 30%;
+  }
+  #medium {
+    max-width: 30%;
+  }
+  #small{
+    max-width: 30%;
+  }
+}
+
+div {
+  border: 2px solid rgba(1, 2, 3, 5);
+  margin: 20px 5px 5px 5px;
+  padding: 5px;
+}
+h2 {
+  font-style: italic;
+  font-size: small;
+}
+p {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 12px;
+}
